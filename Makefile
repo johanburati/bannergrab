@@ -3,7 +3,7 @@ BINPATH = /usr/bin/
 MANPATH = /usr/share/man/
 
 all:
-	gcc -lssl -o bannergrab $(SRCS) $(LDFLAGS) $(CFLAGS)
+	gcc -Wall bannergrab.c -o bannergrab -lcrypto -lssl -Wno-unused
 
 install:
 	cp bannergrab $(BINPATH)
