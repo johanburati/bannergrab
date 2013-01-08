@@ -1,0 +1,145 @@
+Changelog
+=========
+
+Version: 3.5
+Date   : 18/04/2008
+Author : Ian Ventura-Whiting (Fizz)
+Changes: The following are a list of changes
+         since the previous version:
+            > Added FW1 Client Authentication trigger
+            > Added ISA-KMP trigger
+            > Improved FTP trigger
+            > Improved Default trigger
+            > Improved mixed hex and ascii output
+
+Version: 3.4
+Date   : 31/03/2008
+Author : Ian Ventura-Whiting (Fizz)
+Changes: The following are a list of changes
+         since the previous version:
+            > Added Telnet trigger
+
+Version: 3.3
+Date   : 01/01/2008
+Author : Ian Ventura-Whiting (Fizz)
+Changes: The following are a list of changes
+         since the previous version:
+            > Revised the license to make a
+              binary compatability exception with
+              OpenSSL.
+            > Added a Makefile
+            > Added a manual page
+
+Version: 3.2
+Date   : 29/10/2007
+Author : Ian Ventura-Whiting (Fizz)
+Changes: The following are a list of changes
+         since the previous version:
+            > Added a further SSL read timeout
+              for SSL services that do not want
+              to play fair.
+
+Version: 3.1
+Date   : 25/09/2007
+Author : Ian Ventura-Whiting (Fizz)
+Changes: The following are a list of changes
+         since the previous version:
+            > An exception added to the license
+              to make it BINARY compatible with
+              OpenSSL. Makes it easier for
+              packagers.
+
+Version: 3.0
+Date   : 20/09/2007
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : This version adds support for UDP
+         services
+Changes: The following are a list of changes
+         since the previous version:
+            > Added UDP support.
+            > Added NTP trigger.
+            > Added SNMP trigger.
+            > Added NetBIOS-NS trigger.
+            > Removed new line at program end.
+            > General tidyup.
+
+Version: 2.0
+Date   : 03/09/2007
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : This version identifies SSL services and
+         provides SSL service information. Use an
+         SSLScanner to determine the supported
+         ciphers, that is not the purpose of this
+         tool. Try http://sslscan.sf.net
+Changes: The following are a list of changes
+         since the previous version:
+            > Added SSL service information
+              feedback.
+            > Added current SSL cipher.
+            > Added SSL service certificate.
+            > Added a show triggers option.
+            > Added User can specify a trigger.
+            > Fixed a minor command parameter
+              parsing issue.
+
+Version: 1.0
+Date   : 29/08/2007
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : First Source Forge release.
+Changes: The following are a list of changes
+         since the previous version:
+            > Fixed bug with HEX output.
+            > Added MS-SQL trigger.
+            > Added LDAP trigger.
+            > Added increased read timeout for MySQL
+            > Added alternative behavior for QOTD,
+              Daytime and Discard.
+            > Added trigger for Echo.
+            > General trigger enhancements.
+            > Added NOSSL compile option.
+
+Version: 0.5
+Date   : 07/08/2007
+Author : Ian Ventura-Whiting (Fizz)
+Changes: The following are a list of changes
+         since the previous version:
+            > Added function to catch signals.
+            > Added read timeout and set default
+              to 3 seconds.
+
+Version: 0.4
+Date   : 06/08/2007
+Author : Ian Ventura-Whiting (Fizz)
+Changes: The following are a list of changes
+         since the previous version:
+            > Added timeout to SSL connection.
+            > Added web site URL to banner.
+            > Improved help text.
+
+Version: 0.3
+Date   : 16/07/2007
+Author : Ian Ventura-Whiting (Fizz)
+Changes: The following are a list of changes
+         since the previous version:
+            > Improved triggers.
+            > Improved performance.
+            > Fixed silly alarm bug.
+            > Added upper limit to fix services
+              such as chargen.
+            > Added support for SSL.
+            > Prints non-printing output as a
+              HEX dump. This option can also be
+              disabled.
+
+Version: 0.2
+Date   : 15/07/2007
+Author : Ian Ventura-Whiting (Fizz)
+Changes: The following are a list of changes
+         since the previous version:
+            > Added triggers
+            > Improved read /write to socket
+
+Version: 0.1
+Date   : 14/07/2007
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : Initial version of bannergrab-ng
